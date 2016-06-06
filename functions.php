@@ -110,6 +110,7 @@ function strapped_widgets_init() {
 }
 add_action( 'widgets_init', 'strapped_widgets_init' );
 
+
 /**
  * Enqueue scripts and styles.
  */
