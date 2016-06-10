@@ -8287,6 +8287,27 @@ button.close {
   display: block; }
 
 /*--------------------------------------------------------------
+# Post Navigation
+--------------------------------------------------------------*/
+.posts-navigation,
+.post-navigation {
+  margin: 30px 0; }
+  .posts-navigation .nav-previous,
+  .posts-navigation .nav-next,
+  .post-navigation .nav-previous,
+  .post-navigation .nav-next {
+    display: inline-block; }
+  .posts-navigation .nav-previous,
+  .post-navigation .nav-previous {
+    float: right; }
+
+.site-footer {
+  background: #f8f8f8;
+  color: #777; }
+  .site-footer .site-info {
+    margin: 20px 0; }
+
+/*--------------------------------------------------------------
 # Media
 --------------------------------------------------------------*/
 .page-content .wp-smiley,
